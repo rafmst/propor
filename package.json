@@ -1,0 +1,31 @@
+{
+  "version": "3.0.2",
+  "name": "propor",
+  "description": "📐 Ratio calculator on your terminal",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "bin": {
+    "propor": "dist/index.js"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120,
+    "tabWidth": 2,
+    "semi": false,
+    "spaceAfterFunction": true,
+    "trailingComma": "none"
+  },
+  "keywords": [],
+  "author": "Rafael Morais <rafaelcanical@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.21",
+    "@types/yargs": "^15.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "yargs": "^15.4.0"
+  }
+}
